@@ -2,7 +2,7 @@
 
 #The first function, makeCacheMatrix creates a special matrix object. 
 # It is a list containing functions to get and set the matrix object 
-# And also functions to get and get the inverse
+# And also functions to get and set the matrix inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   #Initialize the inverse placeholder and sets the value to NULL
